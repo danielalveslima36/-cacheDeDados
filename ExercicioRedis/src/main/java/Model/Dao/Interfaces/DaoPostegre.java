@@ -1,4 +1,4 @@
-package Model.InterfaceDao;
+package Model.Dao.Interfaces;
 
 import Model.Publicacao;
 

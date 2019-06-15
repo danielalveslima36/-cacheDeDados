@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 public class ConFactory {
 
-    public static String url = "jdbc:postgresql://localhost:5432/loja";
+    public static String url = "jdbc:postgresql://localhost:5432/cacheDados";
 
     public static String user = "postgres";
 
