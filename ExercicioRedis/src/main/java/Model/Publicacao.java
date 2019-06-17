@@ -43,4 +43,14 @@ public class Publicacao {
     public void setCodigoUser(int codigoUser) {
         this.codigoUser = codigoUser;
     }
+
+    @Override
+    public String toString() {
+        return "Publicacao{" +
+                "id='" + id + '\'' +
+                ", texto='" + texto + '\'' +
+                ", dataHora=" + dataHora +
+                ", codigoUser=" + codigoUser +
+                '}';
+    }
 }
