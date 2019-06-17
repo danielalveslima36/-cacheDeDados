@@ -30,7 +30,7 @@ public class DaoRedisImpl implements DaoBanco {
 
         String publicacaoJson = gson.toJson(publicacao);
 
-        jedis.set(publicacao.getId(), publicacaoJson);
+        jedis.setex(publicacao.getId(), 3600, publicacaoJson);
 
     }
 }
